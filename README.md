@@ -1,4 +1,4 @@
-# cs2-wk02-codecollab
+# Java Code Collab 01
 
 This repository provides the **working program** for this week's **CodeCollab homework assignment**. 
 

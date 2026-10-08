@@ -17,23 +17,23 @@ public class Main {
     int birthYear = 2023 - age;
     System.out.println("Birth Year: " + birthYear);
 
-		System.out.println("Cool, now let's get lunch!");
-		System.out.print("Zazzy's ");
-		System.out.print("is ");
-		System.out.print("closed 😔");
+	System.out.println("Cool, now let's get lunch!");
+	System.out.print("Zazzy's ");
+	System.out.print("is ");
+	System.out.print("closed 😔");
 
-		double lunchMoney = 6.50;
+	double lunchMoney = 6.50;
     double pricePerSlice = 2.75;
     int numSlices = (int) (lunchMoney / pricePerSlice);
     System.out.println("But you can buy " + numSlices + " slices of pizza at Centro.");
 
-		System.out.println("That's not enough food! I'll lend you some cash. Type a NUMBER: ");
+	System.out.println("That's not enough food! I'll lend you some cash. Type a NUMBER: ");
 		
-		Scanner input = new Scanner(System.in); 
+	Scanner input = new Scanner(System.in); 
     double moneyBorrowed = input.nextDouble();
 		
-		lunchMoney += moneyBorrowed;
-		numSlices = (int) (lunchMoney / pricePerSlice);
+	lunchMoney += moneyBorrowed;
+	numSlices = (int) (lunchMoney / pricePerSlice);
     System.out.println("With your extra cash, you can now afford " + numSlices + " slices of pizza at Centro 🍕");
 		
   }
